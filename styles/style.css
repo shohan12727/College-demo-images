@@ -24,3 +24,14 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 1px;
 }
+/* Responsive media quary */
+
+@media  screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+        .square-college{
+        grid-template-columns: 1fr;
+        }
+    }
+    
+}
